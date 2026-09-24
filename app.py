@@ -16,7 +16,7 @@ st.markdown(
 )
 
 invitation = components.declare_component(
-    "plan_kapkan", path=str(Path(__file__).parent / "frontend")
+    "plan_kapkan", path=str(Path(__file__).parent)
 )
 # Use the actual deployed address, so shared choices never point at the iframe.
 from urllib.parse import urlencode
